@@ -1,0 +1,27 @@
+.ProfileUser {
+    display: grid;
+    grid-template-areas: "a c";
+    grid-template-columns: 120px 1fr;
+}
+
+.Ava {
+    grid-area: a;
+}
+
+.Ava img {
+    width: 100px;
+    height: 100px;
+    margin: 5px 0 0 0;
+}
+
+.UserInfo {
+    grid-area: c;
+}
+
+.UserName {
+    font-size: 25px;
+}
+
+.UserBirth {
+    margin-top: 10px;
+}

@@ -1,13 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffae9522-b460-41ba-88c9-a732e1800581" name="Default Changelist" comment="" />
+    <list default="true" id="ffae9522-b460-41ba-88c9-a732e1800581" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Content/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Content/Profile/MyPosts/Post/Post.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Content/Profile/MyPosts/Post/Post.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Content/Profile/ProfileUser/ProfileUser.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Content/Profile/ProfileUser/ProfileUser.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/way_of_the_samurai.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/way_of_the_samurai.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Navbar/Navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Navbar/Navbar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Profile/Profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/Profile.module.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="2HBBbj1u3qJtbSghOQFegOFw7dh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -16,7 +50,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Content/Profile/ProfileUser" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\project\way_of_the_samurai\src\Content\Profile\ProfileUser" />
+      <recent name="C:\project\way_of_the_samurai\src\Content\Profile\MyPosts\Post" />
+      <recent name="C:\project\way_of_the_samurai\src\Content\Profile\MyPosts" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -29,7 +76,42 @@
       <option name="presentableId" value="Default" />
       <updated>1667748669968</updated>
       <workItem from="1667748671483" duration="13000" />
+      <workItem from="1667755195002" duration="1302000" />
+      <workItem from="1667756889567" duration="2057000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="551" y="275" key="#ESLint" timestamp="1667756919618">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="551" y="275" key="#ESLint/0.0.1366.728@0.0.1366.728" timestamp="1667756919618" />
+    <state x="481" y="53" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1667757458457">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="481" y="53" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1667757458457" />
+    <state x="0" y="0" width="585" height="728" key="find.popup" timestamp="1667757178659">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" width="585" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1667757178659" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1667758265562">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1667758265562" />
   </component>
 </project>

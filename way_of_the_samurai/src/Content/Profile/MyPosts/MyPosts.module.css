@@ -1,0 +1,18 @@
+.UserPosts {
+    margin: 10px;
+}
+
+.MyPost {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0  0 10px 0;
+}
+
+.TextareaButton {
+    margin-top: 10px;
+    display: flex;
+}
+
+.TextareaButton button {
+    margin: 15px 0 0 5px;
+}
