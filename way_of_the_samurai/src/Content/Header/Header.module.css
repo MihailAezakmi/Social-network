@@ -1,0 +1,27 @@
+.HeaderWrapper{
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: "i n";
+    /*grid-template-rows: 50px 1fr;*/
+    grid-template-columns: 50px;
+    background: limegreen ;
+    height: 50px;
+    width: 1200px;
+}
+
+.HeaderImg  {
+    grid-area: i;
+    margin: 3px 2px 2px 3px;
+}
+
+.HeaderImg img {
+    width: 43px;
+}
+
+.HeaderName {
+    /*text-align: center;*/
+    /*margin-top: 10px;*/
+    margin: 0 auto;
+    grid-area: n;
+    color:white;
+}

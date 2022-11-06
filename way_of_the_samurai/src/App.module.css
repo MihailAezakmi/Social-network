@@ -1,0 +1,25 @@
+.AppWrapper {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 10px;
+  display: grid;
+  grid-template-areas:
+          "h h"
+          "n p";
+  grid-template-rows: 50px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 10px;
+}
+
+.Header {
+  grid-area: h;
+}
+
+.Navbar {
+  grid-area: n;
+
+}
+
+.Profile{
+  grid-area: p;
+}

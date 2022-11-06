@@ -1,0 +1,12 @@
+.NavbarWrapper {
+    width: 200px;
+    display: grid;
+    grid-template-rows: 20px 20px 20px 50px;
+    background: limegreen;
+    /*height: 600px;*/
+}
+
+.item {
+    margin: 8px;
+    color: white;
+}

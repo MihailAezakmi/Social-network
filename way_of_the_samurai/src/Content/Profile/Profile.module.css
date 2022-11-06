@@ -1,0 +1,48 @@
+.ProfileWrapper{
+width: 950px;
+}
+.HeaderImg img {
+    width: 990px;
+    height: 200px;
+}
+
+.ProfileUser {
+    display: grid;
+    grid-template-areas: "a c";
+    grid-template-columns: 120px 1fr;
+}
+.Ava {
+    grid-area: a;
+}
+
+.Ava img{
+    width: 100px;
+    height: 100px;
+    margin: 5px 0 0 0;
+}
+
+.UserInfo {
+    grid-area: c;
+}
+
+.UserName {
+    font-size: 25px;
+}
+
+.UserBirth {
+    margin-top: 10px;
+}
+
+.UserPosts {
+    margin: 10px;
+}
+
+.MyPost {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0  0 10px 0;
+}
+
+.Post {
+    margin-top: 20px;
+}
