@@ -1,8 +1,8 @@
-.ProfileWrapper {
+.Content {
     width: 950px;
 }
 
-.HeaderImg img {
+.Content__HeaderImg img {
     width: 990px;
     height: 200px;
 }

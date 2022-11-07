@@ -3,13 +3,13 @@
     display: flex;
 }
 
-.PostImg img {
+.Post_Img img {
     width: 50px;
     height: 50px;
     border-radius: 30px;
 }
 
-.PostMessage {
+.Post_Message {
     font-size: 15px;
     margin-left: 20px;
     margin-top: 10px;

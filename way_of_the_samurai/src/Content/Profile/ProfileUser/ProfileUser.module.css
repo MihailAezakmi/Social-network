@@ -4,24 +4,24 @@
     grid-template-columns: 120px 1fr;
 }
 
-.Ava {
+.ProfileUser__Ava {
     grid-area: a;
 }
 
-.Ava img {
+.ProfileUser__Ava img {
     width: 100px;
     height: 100px;
     margin: 5px 0 0 0;
 }
 
-.UserInfo {
+.ProfileUser__UserInfo {
     grid-area: c;
 }
 
-.UserName {
+.ProfileUser_UserName {
     font-size: 25px;
 }
 
-.UserBirth {
+.ProfileUser_UserBirth {
     margin-top: 10px;
 }

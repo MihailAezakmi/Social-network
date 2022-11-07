@@ -1,4 +1,4 @@
-.HeaderWrapper{
+.Header{
     margin: 0 auto;
     display: grid;
     grid-template-areas: "i n";
@@ -9,16 +9,16 @@
     width: 1200px;
 }
 
-.HeaderImg  {
+.Header_Img  {
     grid-area: i;
     margin: 3px 2px 2px 3px;
 }
 
-.HeaderImg img {
+.Header_Img img {
     width: 43px;
 }
 
-.HeaderName {
+.Header_Name {
     /*text-align: center;*/
     /*margin-top: 10px;*/
     margin: 0 auto;

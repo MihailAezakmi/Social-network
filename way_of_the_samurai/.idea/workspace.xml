@@ -16,21 +16,27 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffae9522-b460-41ba-88c9-a732e1800581" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Content/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Content/Profile/MyPosts/Post/Post.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Content/Profile/MyPosts/Post/Post.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Content/Profile/ProfileUser/ProfileUser.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Content/Profile/ProfileUser/ProfileUser.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/way_of_the_samurai.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/way_of_the_samurai.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Navbar/Navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Navbar/Navbar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Profile/MyPosts/MyPosts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/MyPosts/MyPosts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Profile/MyPosts/Post/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/MyPosts/Post/Post.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Profile/MyPosts/Post/Post.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/MyPosts/Post/Post.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/Profile.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Profile/Profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/Profile.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Profile/ProfileUser/ProfileUser.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/ProfileUser/ProfileUser.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Profile/ProfileUser/ProfileUser.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/ProfileUser/ProfileUser.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +63,7 @@
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -64,6 +71,23 @@
       <recent name="C:\project\way_of_the_samurai\src\Content\Profile\MyPosts\Post" />
       <recent name="C:\project\way_of_the_samurai\src\Content\Profile\MyPosts" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -77,7 +101,8 @@
       <updated>1667748669968</updated>
       <workItem from="1667748671483" duration="13000" />
       <workItem from="1667755195002" duration="1302000" />
-      <workItem from="1667756889567" duration="2057000" />
+      <workItem from="1667756889567" duration="3595000" />
+      <workItem from="1667843926960" duration="984000" />
     </task>
     <servers />
   </component>
@@ -101,6 +126,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="551" y="275" key="#ESLint/0.0.1366.728@0.0.1366.728" timestamp="1667756919618" />
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1667843985402">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1667843985402" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1667843985402">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1667843985402" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1667843985401">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1667843985401" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1667843985402">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1667843985402" />
     <state x="481" y="53" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1667757458457">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
