@@ -1,12 +1,19 @@
 .Navbar {
     width: 200px;
     display: grid;
-    grid-template-rows: 20px 20px 20px 50px;
+    grid-template-rows: 40px 40px 40px 90px;
     background: limegreen;
     height: 600px;
 }
 
-.Navbar_item {
-    margin: 8px;
+.Navbar_item a {
+    margin: 20px 0 0 35px;
     color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.Navbar_item a.active {
+    color: gold;
+
 }
