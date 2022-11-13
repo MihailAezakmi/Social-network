@@ -4,10 +4,15 @@
     grid-template-rows: 40px 40px 40px 90px;
     background: limegreen;
     height: 600px;
+
+}
+
+.Navbar_item {
+    margin-top: 20px;
 }
 
 .Navbar_item a {
-    margin: 20px 0 0 35px;
+    margin: 0 0 0 35px;
     color: white;
     font-size: 30px;
     text-decoration: none;
@@ -15,5 +20,4 @@
 
 .Navbar_item a.active {
     color: gold;
-
 }

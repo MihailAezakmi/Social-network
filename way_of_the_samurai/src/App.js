@@ -10,17 +10,18 @@ import Music from "./Content/Music/Music";
 import Setting from "./Content/Setting/Setting";
 
 const App = () => {
+
     return (
         <BrowserRouter>
             <div className={s.AppWrapper}>
                 <div className={s.Header}><Header/></div>
                 <div className={s.Navbar}><Navbar/></div>
                 <Routes className={s.Profile}>
-                    <Route path='/Profile' element={<Profile/>}/>
-                    <Route path='/Dialogs' element={<Dialogs/>}/>
-                    <Route path='/News' element={<News/>}/>
-                    <Route path='/Music' element={<Music/>}/>
-                    <Route path='/Setting' element={<Setting/>}/>
+                    <Route path='/profile' element={<Profile/>}/>
+                    <Route path='/dialogs/*' element={<Dialogs/>}/>
+                    <Route path='/news' element={<News/>}/>
+                    <Route path='/music' element={<Music/>}/>
+                    <Route path='/setting' element={<Setting/>}/>
                 </Routes>
 
 

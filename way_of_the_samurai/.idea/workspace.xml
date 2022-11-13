@@ -26,7 +26,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffae9522-b460-41ba-88c9-a732e1800581" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/User.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Content/Dialogs/DialigsUser/DialigsUser.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Content/Dialogs/DialigsUser/DialigsUser.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Content/Dialogs/Message/Message.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Content/Dialogs/Message/Message.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Content/test/Manatee.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Content/test/Narwhal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Content/test/Whale.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/Dialogs.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Navbar/Navbar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Navbar/Navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Navbar/Navbar.module.css" afterDir="false" />
     </list>
@@ -47,8 +58,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Content/Setting" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Content/test" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -58,15 +70,17 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\project\way_of_the_samurai\src\Content\Setting" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\project\way_of_the_samurai\src\Content\test" />
       <recent name="C:\project\way_of_the_samurai\src\Content\Setting" />
       <recent name="C:\project\way_of_the_samurai\src\Content" />
       <recent name="C:\project\way_of_the_samurai\src\Content\Profile\ProfileUser" />
       <recent name="C:\project\way_of_the_samurai\src\Content\Profile\MyPosts\Post" />
-      <recent name="C:\project\way_of_the_samurai\src\Content\Profile\MyPosts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\project\way_of_the_samurai\src\Content\Dialogs" />
+      <recent name="C:\project\way_of_the_samurai\src\Content\Dialogs\DialogsUserMessage" />
+      <recent name="C:\project\way_of_the_samurai\src\Content\Setting" />
     </key>
   </component>
   <component name="RunManager">
@@ -102,7 +116,8 @@
       <workItem from="1667843926960" duration="2037000" />
       <workItem from="1668191495329" duration="151000" />
       <workItem from="1668191763347" duration="843000" />
-      <workItem from="1668192673150" duration="2701000" />
+      <workItem from="1668192673150" duration="3251000" />
+      <workItem from="1668333974780" duration="12726000" />
     </task>
     <servers />
   </component>
@@ -126,22 +141,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="551" y="275" key="#ESLint/0.0.1366.728@0.0.1366.728" timestamp="1667756919618" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1668194086716">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1668351240856">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1668194086716" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1668194086715">
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1668351240856" />
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1668349198167">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1668194086715" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1668194086715">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1668349198167" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1668349198167">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1668194086715" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1668194086715">
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1668349198167" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1668349198167">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1668194086715" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1668349198167" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1668349198167">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1668349198167" />
     <state x="481" y="53" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1667757458457">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -150,9 +169,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="0" width="585" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1668193215718" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1667758265562">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1668349740353">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1667758265562" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1668349740353" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1668361302465">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1668361302465" />
   </component>
 </project>
