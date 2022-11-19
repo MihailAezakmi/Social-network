@@ -4,7 +4,6 @@ import Message from "./Message/Message";
 import DialogsUser from "./DialigsUser/DialogsUser";
 
 const Dialogs = () => {
-
     let DialogsData = [
         {id: "1", name: 'Andrey'},
         {id: "2", name: 'Roman'},
@@ -13,7 +12,6 @@ const Dialogs = () => {
         {id: "5", name: 'Sveta'},
 
     ]
-
     let MessageData = [
         {id: "1", message: 'Hello'},
         {id: "2", message: 'GG WP'},
@@ -23,15 +21,12 @@ const Dialogs = () => {
 
     ]
 
+    let DialogsElements = DialogsData.map(name => <DialogsUser user={name.name} id={name.id}/>)
 
     return (
         <div className={s.dialogs}>
             <div className={s.dialogsItem}>
-                <DialogsUser user={DialogsData[0].name} id={DialogsData[0].id}/>
-                <DialogsUser user={DialogsData[1].name} id={DialogsData[1].id}/>
-                <DialogsUser user={DialogsData[2].name} id={DialogsData[2].id}/>
-                <DialogsUser user={DialogsData[3].name} id={DialogsData[3].id}/>
-                <DialogsUser user={DialogsData[4].name} id={DialogsData[4].id}/>
+                {DialogsElements}
             </div>
             <div>
                 <Message MessageData={MessageData}/>

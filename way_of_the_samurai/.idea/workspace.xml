@@ -26,15 +26,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffae9522-b460-41ba-88c9-a732e1800581" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Content/Dialogs/Message/MessageUser/MessageUser.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/DialigsUser/DialigsUser.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/DialigsUser/DialogsUser.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/DialigsUser/DialigsUser.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/DialigsUser/DialogsUser.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/Dialogs.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/Message/Message.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/Message/Message.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/MyPosts/Post/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/MyPosts/Post/Post.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/ProfileUser/ProfileUser.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/ProfileUser/ProfileUser.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +108,7 @@
       <workItem from="1668191763347" duration="843000" />
       <workItem from="1668192673150" duration="3251000" />
       <workItem from="1668333974780" duration="13069000" />
-      <workItem from="1668886471542" duration="2617000" />
+      <workItem from="1668886471542" duration="4506000" />
     </task>
     <servers />
   </component>
@@ -141,26 +136,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1668351240856" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1668361714837">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1668889149046">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1668361714837" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1668361714836">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1668889149046" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1668889149046">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1668361714836" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1668361714836">
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1668889149046" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1668889149046">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1668361714836" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1668361714837">
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1668889149045" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1668889149046">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1668361714837" />
-    <state x="481" y="53" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1667757458457">
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1668889149046" />
+    <state x="481" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1668892034603">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="481" y="53" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1667757458457" />
+    <state x="481" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1668892034603" />
     <state x="0" y="0" width="585" height="728" key="find.popup" timestamp="1668193215718">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
