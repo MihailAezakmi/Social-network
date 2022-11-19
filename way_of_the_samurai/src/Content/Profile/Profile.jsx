@@ -4,6 +4,7 @@ import MyPosts from "./MyPosts/MyPosts";
 import ProfileUser from "./ProfileUser/ProfileUser";
 
 const Profile = () => {
+
     return (
         <div className={s.Content}>
             <div className={s.Content__HeaderImg}><img

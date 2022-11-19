@@ -1,8 +1,8 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
-import s from "./DialigsUser.module.css"
+import s from "./DialogsUser.module.css"
 
-const DialigsUser = (props) => {
+const DialogsUser = (props) => {
     return (
         <div>
             <div className={s.DialigsUser}>
@@ -12,18 +12,12 @@ const DialigsUser = (props) => {
                         alt=""/>
                 </div>
                 <div className={s.dialog}>
-                    <NavLink  to={props.id} className={({isActive}) =>
+                    <NavLink to={props.id} className={({isActive}) =>
                         isActive ? s.active : undefined}><p>{props.user}</p></NavLink>
                 </div>
             </div>
-
-
-            {/*<div className={s.dialog}><NavLink to="2">Roman</NavLink></div>*/}
-            {/*<div className={s.dialog}><NavLink to="3">Mihail</NavLink></div>*/}
-            {/*<div className={s.dialog}><NavLink to="4">Ivan</NavLink></div>*/}
-            {/*<div className={s.dialog}><NavLink to="5">Vladislav</NavLink></div>*/}
         </div>
     )
 }
 
-export default DialigsUser
+export default DialogsUser

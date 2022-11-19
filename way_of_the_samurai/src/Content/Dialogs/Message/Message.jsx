@@ -13,11 +13,11 @@ const MessageUser = (props) => {
 const Message = (props) => {
     return (
         <div className={s.message}>
-            <MessageUser message={"Hi"} id={"1"}/>
-            <MessageUser message={"Yoo"} id={"2"}/>
-            <MessageUser message={"GG,WP"} id={"3"}/>
-            <MessageUser message={"Hello"} id={"4"}/>
-            <MessageUser message={"Good day"} id={"5"}/>
+            <MessageUser message={props.MessageData[0].message} id={props.MessageData[0].id}/>
+            <MessageUser message={props.MessageData[1].message} id={props.MessageData[1].id}/>
+            <MessageUser message={props.MessageData[2].message} id={props.MessageData[2].id}/>
+            <MessageUser message={props.MessageData[3].message} id={props.MessageData[3].id}/>
+            <MessageUser message={props.MessageData[4].message} id={props.MessageData[4].id}/>
         </div>
     )
 }

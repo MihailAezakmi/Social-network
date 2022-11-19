@@ -2,6 +2,7 @@ import React from "react";
 import s from "./ProfileUser.module.css"
 
 const ProfileUser = () => {
+
     return (
             <div className={s.ProfileUser}>
                 <div className={s.ProfileUser__Ava}><img
