@@ -1,0 +1,18 @@
+.MyPosts {
+    margin: 10px;
+}
+
+.MyPosts__MyPost {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0  0 10px 0;
+}
+
+.MyPosts_TextareaButton {
+    margin-top: 10px;
+    display: flex;
+}
+
+.MyPosts_TextareaButton button {
+    margin: 15px 0 0 5px;
+}

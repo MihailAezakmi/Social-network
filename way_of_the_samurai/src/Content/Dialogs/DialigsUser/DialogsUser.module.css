@@ -1,0 +1,23 @@
+.DialigsUser {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+}
+
+.DialigsUser img {
+    width: 50px;
+    border-radius: 30px;
+    margin: 15px 0 0 15px;
+}
+
+.dialog {
+    margin: 10px 0 0 10px;
+}
+
+.dialog a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.dialog a.active {
+    color: gold;
+}
