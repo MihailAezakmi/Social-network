@@ -4,7 +4,7 @@ import s from "./Message.module.css"
 import MessageUser from "./MessageUser/MessageUser";
 
 const Message = (props) => {
-    let MessageElements = props.MessageData.map(messages => <MessageUser message={messages.message} id={messages.id}/>)
+    let MessageElements = props.messageUser.map(messages => <MessageUser message={messages.message} id={messages.id}/>)
     return (
         <div className={s.message}>
             {MessageElements}

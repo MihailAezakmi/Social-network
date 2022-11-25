@@ -3,7 +3,7 @@ import s from "./Profile.module.css"
 import MyPosts from "./MyPosts/MyPosts";
 import ProfileUser from "./ProfileUser/ProfileUser";
 
-const Profile = () => {
+const Profile = (props) => {
 
     return (
         <div className={s.Content}>
@@ -13,7 +13,7 @@ const Profile = () => {
                 <ProfileUser />
             </div>
             <div>
-                <MyPosts/>
+                <MyPosts posts={props.posts}/>
             </div>
         </div>
     )
