@@ -1,0 +1,21 @@
+.Navbar_NavLink {
+    display: grid;
+    grid-template-rows: 40px 40px 40px 90px;
+
+}
+
+.Navbar_item {
+    margin-top: 20px;
+}
+
+.Navbar_item a {
+    margin: 0 0 0 35px;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.Navbar_item a.active {
+    color: gold;
+}
+

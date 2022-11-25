@@ -4,7 +4,7 @@ import MyPosts from "./MyPosts/MyPosts";
 import ProfileUser from "./ProfileUser/ProfileUser";
 
 const Profile = (props) => {
-
+debugger
     return (
         <div className={s.Content}>
             <div className={s.Content__HeaderImg}><img
@@ -13,7 +13,7 @@ const Profile = (props) => {
                 <ProfileUser />
             </div>
             <div>
-                <MyPosts posts={props.posts}/>
+                <MyPosts posts={props.state.postData}/>
             </div>
         </div>
     )

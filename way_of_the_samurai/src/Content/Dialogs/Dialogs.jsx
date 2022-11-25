@@ -7,7 +7,7 @@ const Dialogs = (props) => {
 
 
 
-    let DialogsElements = props.dialogsUser.map(name => <DialogsUser user={name.name} id={name.id}/>)
+    let DialogsElements = props.state.DialogsUserData.map(name => <DialogsUser user={name.name} id={name.id}/>)
 
     return (
         <div className={s.dialogs}>
@@ -15,7 +15,7 @@ const Dialogs = (props) => {
                 {DialogsElements}
             </div>
             <div>
-                <Message messageUser={props.messageUser}/>
+                <Message messageUser={props.state.MessageUserData}/>
             </div>
 
         </div>

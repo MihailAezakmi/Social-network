@@ -1,5 +1,5 @@
 .AppWrapper {
-  width: 1200px;
+  width: 1260px;
   margin: 0 auto;
   margin-top: 10px;
   display: grid;
@@ -7,7 +7,7 @@
           "h h"
           "n p";
   grid-template-rows: 50px 1fr;
-  grid-template-columns: 2fr 10fr;
+  grid-template-columns: 250px 1000px;
   grid-gap: 10px;
 }
 
