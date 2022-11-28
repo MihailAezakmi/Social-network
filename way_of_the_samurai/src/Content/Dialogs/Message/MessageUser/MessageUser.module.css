@@ -1,0 +1,34 @@
+.message {
+    margin: 20px 0 0 50px;
+    width: 600px;
+    display: grid;
+    grid-template-rows: 50px 50px;
+}
+
+.message p {
+    margin: 15px 0 0 0;
+}
+
+.messageUser img{
+    width: 50px;
+    border-radius: 100px;
+}
+
+.messageUser {
+    text-align: left;
+    display: grid;
+    grid-template-columns: 60px 1fr;
+}
+
+.messageMe img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+.messageMe {
+    display: grid;
+    grid-template-columns: auto 60px;
+    text-align: right;
+}
+

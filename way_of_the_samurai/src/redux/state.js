@@ -16,11 +16,11 @@ let state = {
             {id: "5", name: 'Sveta'},
         ],
         MessageUserData: [
-            {id: "1", message: 'Hello'},
-            {id: "2", message: 'GG WP'},
-            {id: "3", message: 'Work please'},
-            {id: "4", message: 'Like'},
-            {id: "5", message: 'Yo'},
+            {id: "1", message: 'Hello', messageMe:'Hey,bro'},
+            {id: "2", message: 'GG WP', messageMe:'WP,GG'},
+            {id: "3", message: 'Work please', messageMe:'Okey,bro'},
+            {id: "4", message: 'Like', messageMe:'No'},
+            {id: "5", message: 'Yo', messageMe:'Yoo Yoo Yoo'},
 
         ]
     },
