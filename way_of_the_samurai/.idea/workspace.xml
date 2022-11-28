@@ -39,6 +39,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2HBBbj1u3qJtbSghOQFegOFw7dh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -103,7 +106,7 @@
       <workItem from="1668192673150" duration="3251000" />
       <workItem from="1668333974780" duration="13069000" />
       <workItem from="1668886471542" duration="4506000" />
-      <workItem from="1669671220432" duration="308000" />
+      <workItem from="1669671220432" duration="654000" />
     </task>
     <servers />
   </component>
@@ -120,47 +123,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="551" y="275" key="#ESLint" timestamp="1667756919618">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="551" y="275" key="#ESLint/0.0.1366.728@0.0.1366.728" timestamp="1667756919618" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1668351240856">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1668351240856" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1668889149046">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1668889149046" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1668889149046">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1668889149046" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1668889149046">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1668889149045" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1668889149046">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1668889149046" />
-    <state x="481" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1668892034603">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="481" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1668892034603" />
-    <state x="0" y="0" width="585" height="728" key="find.popup" timestamp="1668193215718">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="0" y="0" width="585" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1668193215718" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1668888672873">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1668888672873" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1668361302465">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1668361302465" />
   </component>
 </project>
