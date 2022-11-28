@@ -2,7 +2,7 @@
     margin: 20px 0 0 50px;
     width: 600px;
     display: grid;
-    grid-template-rows: 50px 50px;
+    grid-template-rows: 50px;
 }
 
 .message p {
