@@ -13,7 +13,7 @@ debugger
                 <ProfileUser />
             </div>
             <div>
-                <MyPosts posts={props.state.postData}/>
+                <MyPosts addPost={props.addPost} posts={props.state.postData}/>
             </div>
         </div>
     )

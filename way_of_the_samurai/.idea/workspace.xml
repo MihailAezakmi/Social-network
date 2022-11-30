@@ -48,13 +48,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\project\way_of_the_samurai\src\Content\test" />
@@ -106,7 +106,8 @@
       <workItem from="1668192673150" duration="3251000" />
       <workItem from="1668333974780" duration="13069000" />
       <workItem from="1668886471542" duration="4506000" />
-      <workItem from="1669671220432" duration="2692000" />
+      <workItem from="1669671220432" duration="2845000" />
+      <workItem from="1669837521205" duration="748000" />
     </task>
     <servers />
   </component>
