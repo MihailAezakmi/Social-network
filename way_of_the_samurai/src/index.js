@@ -1,6 +1,6 @@
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import state, {addPost, subscribe} from "./redux/state"
+import state, {addPost, subscribe, updateNewPostText} from "./redux/state"
 
 import ReactDOM from "react-dom/client";
 import React from "react";
@@ -11,7 +11,7 @@ export let rerenderTree = (state) => {
 
     root.render(
         <React.StrictMode>
-            <App addPost={addPost} state={state}/>
+            <App addPost={addPost} updateNewPostText={updateNewPostText} state={state}/>
         </React.StrictMode>
     );
 }

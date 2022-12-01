@@ -2,9 +2,10 @@ import React from "react";
 import s from "./Profile.module.css"
 import MyPosts from "./MyPosts/MyPosts";
 import ProfileUser from "./ProfileUser/ProfileUser";
+import {updateNewPostText} from "../../redux/state";
 
 const Profile = (props) => {
-debugger
+
     return (
         <div className={s.Content}>
             <div className={s.Content__HeaderImg}><img
@@ -13,7 +14,7 @@ debugger
                 <ProfileUser />
             </div>
             <div>
-                <MyPosts addPost={props.addPost} posts={props.state.postData}/>
+                <MyPosts updateNewPostText={props.updateNewPostText} addPost={props.addPost} posts={props.state}/>
             </div>
         </div>
     )

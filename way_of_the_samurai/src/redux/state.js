@@ -1,6 +1,7 @@
 let  rerenderTree = () => {
 }
 
+
 let state = {
     profilePage: {
         postData: [
@@ -8,7 +9,9 @@ let state = {
             {id: "2", post: "Hi, Good game", like: "15"},
             {id: "3", post: "хи-хи", like: "1"},
             {id: "4", post: "просто да", like: "100"}
-        ]
+        ],
+        newPostText: ""
+
     },
     dialogsPage: {
         DialogsUserData: [
@@ -36,13 +39,22 @@ let state = {
     }
 }
 
-export const addPost = (postMessage) => {
+window.state = state
+
+export const addPost = () => {
     let newPost = {
         id: "",
-        post:postMessage,
+        post:state.profilePage.newPostText,
         like:"15"
     }
     state.profilePage.postData.push(newPost);
+    state.profilePage.newPostText = ""
+    rerenderTree(state)
+
+}
+
+export const updateNewPostText = (newText) => {
+    state.profilePage.newPostText = newText
     rerenderTree(state)
 }
 
