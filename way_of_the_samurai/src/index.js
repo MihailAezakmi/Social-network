@@ -10,12 +10,13 @@ export let rerenderTree = () => {
 
     root.render(
         <React.StrictMode>
-            <App addPost={store.addPost.bind(store)} updateNewPostText={store.updateNewPostText.bind(store)} state={store.getState()}/>
+            <App dispatch={store.dispatch.bind(store)} state={store.getState()}/>
         </React.StrictMode>
     );
 }
 rerenderTree(store);
 store.subscribe(rerenderTree);
+
 
 
 reportWebVitals();
