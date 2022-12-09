@@ -15,7 +15,7 @@ const Dialogs = (props) => {
                 {DialogsElements}
             </div>
             <div>
-                <Message messageUser={props.state.MessageUserData}/>
+                <Message messageUser={props.state} dispatch={props.dispatch}/>
             </div>
 
         </div>

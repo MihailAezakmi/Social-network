@@ -6,7 +6,7 @@ const MessageUser = (props) => {
 
     return <div>
         <Routes>
-            <Route path={props.id} element={<MessageUserText message={props.message} messageMe={props.messageMe} />}/>
+            <Route path={props.id} element={<MessageUserText message={props.message} />}/>
 
         </Routes>
 
