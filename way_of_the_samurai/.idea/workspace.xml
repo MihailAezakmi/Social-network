@@ -48,21 +48,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;js.last.introduce.type&quot;: &quot;CONST&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "js.last.introduce.type": "CONST",
+    "last_opened_file_path": "C:/project/way_of_the_samurai/src/redux",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\project\way_of_the_samurai\src\redux" />
       <recent name="C:\project\way_of_the_samurai\src\Content\test" />
       <recent name="C:\project\way_of_the_samurai\src\Content\Setting" />
       <recent name="C:\project\way_of_the_samurai\src\Content" />
       <recent name="C:\project\way_of_the_samurai\src\Content\Profile\ProfileUser" />
-      <recent name="C:\project\way_of_the_samurai\src\Content\Profile\MyPosts\Post" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\project\way_of_the_samurai\src\Content\Dialogs" />
@@ -111,7 +112,7 @@
       <workItem from="1669837521205" duration="1608000" />
       <workItem from="1669922120554" duration="4283000" />
       <workItem from="1670008881666" duration="3978000" />
-      <workItem from="1670613282257" duration="3743000" />
+      <workItem from="1670613282257" duration="5036000" />
     </task>
     <servers />
   </component>

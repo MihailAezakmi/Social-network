@@ -2,7 +2,7 @@ import {Route, Routes} from "react-router-dom";
 import React from "react";
 import s from "./Message.module.css"
 import MessageUser from "./MessageUser/MessageUser";
-import {sendMessageCreator, onMessageChangeCreator} from "../../../redux/state";
+import {sendMessageCreator, onMessageChangeCreator} from "../../../redux/DialogsReducer";
 
 const Message = (props) => {
     let sendMessageBodyClick = () => {
