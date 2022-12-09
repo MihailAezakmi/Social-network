@@ -4,6 +4,7 @@ import Post from "./Post/Post";
 import {addPostActionCreator, onPostChangeActionCreator} from "../../../redux/ProfileReducer";
 
 const MyPosts = (props) => {
+
     let onNewPostText = props.posts.newPostText
     let postElements = props.posts.postData
         .map(post => <Post message={post.post} like={post.like} id={post.id}/>)
