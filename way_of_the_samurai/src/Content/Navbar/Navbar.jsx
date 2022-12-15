@@ -11,7 +11,7 @@ const Navbar = (props) => {
                 <NavbarLinks/>
             </div>
             <div>
-                <NavbarFriends state={props.state}/>
+                <NavbarFriends store={props.store}/>
             </div>
 
         </div>
