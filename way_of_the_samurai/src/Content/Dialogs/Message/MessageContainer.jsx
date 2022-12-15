@@ -1,26 +1,39 @@
-import {Route, Routes} from "react-router-dom";
 import React from "react";
-import s from "./Message.module.css"
 import MessageUser from "./MessageUser/MessageUser";
 import {sendMessageCreator, onMessageChangeCreator} from "../../../redux/DialogsReducer";
 import Message from "./Message";
+import StoreContext from "../../../redux/StoreContext";
 
-const MessageContainer = (props) => {
-    let store = props.store.getState()
+const MessageContainer = () => {
 
-    let sendMessageBodyClick = () => {
-        props.store.dispatch(sendMessageCreator())
-    }
+    return (
+        <StoreContext.Consumer>
+            {
+                (store) => {
+                    let state = store.getState()
+
+                    let sendMessageBodyClick = () => {
+                        store.dispatch(sendMessageCreator())
+                    }
 
 
-    let messageBodyChange = (text) => {
-        props.store.dispatch(onMessageChangeCreator(text))
-    }
+                    let messageBodyChange = (text) => {
+                        store.dispatch(onMessageChangeCreator(text))
+                    }
 
-    let onNewMessageText = store.dialogsPage.newMessageBody
-    let messageElements = store.dialogsPage.MessageUserData.map(messages => <MessageUser message={messages.message} id={messages.id}/>)
+                    let onNewMessageText = state.dialogsPage.newMessageBody
+                    let messageElements = state.dialogsPage.MessageUserData.map(messages => <MessageUser
+                        message={messages.message} id={messages.id}/>)
 
-    return <Message messageElements={messageElements} onNewMessageText={onNewMessageText} sendMessageBodyClick={sendMessageBodyClick} messageBodyChange={messageBodyChange}/>
+                    return (
+                        <Message messageElements={messageElements} onNewMessageText={onNewMessageText}
+                                 sendMessageBodyClick={sendMessageBodyClick} messageBodyChange={messageBodyChange}/>
+
+                    )
+                }
+            }
+        </StoreContext.Consumer>
+    )
 
 }
 

@@ -1,11 +1,10 @@
 import React from "react";
 import s from "./Profile.module.css"
-import MyPosts from "./MyPosts/MyPosts";
 import ProfileUser from "./ProfileUser/ProfileUser";
 import MyPostsContainer from "./MyPosts/MyPostsContainer";
 
 
-const Profile = (props) => {
+const Profile = () => {
 
     return (
         <div className={s.Content}>
@@ -15,7 +14,7 @@ const Profile = (props) => {
                 <ProfileUser />
             </div>
             <div>
-                <MyPostsContainer store={props.store}/>
+                <MyPostsContainer/>
             </div>
         </div>
     )
