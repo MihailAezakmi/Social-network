@@ -20,7 +20,7 @@ const App = (props) => {
                 <div className={s.Navbar}><Navbar store={props.store}/></div>
                 <Routes className={s.Profile}>
                     <Route path='/profile' element={<Profile store={props.store}/>}/>
-                    <Route path='/dialogs/*' element={<Dialogs dispatch={props.dispatch} state={props.store.dialogsPage}/>}/>
+                    <Route path='/dialogs/*' element={<Dialogs store={props.store} state={props.store.dialogsPage}/>}/>
                     <Route path='/news' element={<News/>}/>
                     <Route path='/music' element={<Music/>}/>
                     <Route path='/setting' element={<Setting/>}/>

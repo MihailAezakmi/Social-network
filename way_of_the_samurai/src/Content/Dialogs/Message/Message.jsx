@@ -5,27 +5,25 @@ import MessageUser from "./MessageUser/MessageUser";
 import {sendMessageCreator, onMessageChangeCreator} from "../../../redux/DialogsReducer";
 
 const Message = (props) => {
-    let sendMessageBodyClick = () => {
-        props.dispatch(sendMessageCreator())
+    let onSendMessageBodyClick = () => {
+        props.sendMessageBodyClick()
     }
 
 
     let onMessageBodyChange = (e) => {
         let text = e.target.value
-        props.dispatch(onMessageChangeCreator(text))
+        props.messageBodyChange(text)
     }
 
-    let onNewMessageText = props.messageUser.newMessageBody
-    let MessageElements = props.messageUser.MessageUserData.map(messages => <MessageUser message={messages.message} id={messages.id}/>)
     return (
         <div className={s.message}>
-            {MessageElements}
+            {props.messageElements}
             <div className={s.addMessage}>
                 <div className={s.textarea}>
-                    <textarea  onChange={onMessageBodyChange} value={onNewMessageText} cols="30" rows="3"></textarea>
+                    <textarea  onChange={onMessageBodyChange} value={props.onNewMessageText} cols="30" rows="3"></textarea>
                 </div>
                 <div className={s.button}>
-                    <button onClick={sendMessageBodyClick}>Add Message</button>
+                    <button onClick={onSendMessageBodyClick}>Add Message</button>
                 </div>
             </div>
 
