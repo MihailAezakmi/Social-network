@@ -2,28 +2,22 @@ import React from "react";
 import s from './Navbar.module.css'
 import NavbarFriends from "./NavbarFriends/NavbarFriends";
 import NavbarLinks from "./NavbarLinks/NavbarLinks";
-import StoreContext from "../../redux/StoreContext";
 
-const Navbar = () => {
+
+const Navbar = (props) => {
 
     return (
-        <StoreContext.Consumer>
-            {(store) => {
-                return (
-                    <div className={s.wrapper}>
-                        <div>
-                            <NavbarLinks/>
-                        </div>
-                        <div>
-                            <NavbarFriends store={store}/>
-                        </div>
+        <div className={s.wrapper}>
+            <div>
+                <NavbarLinks/>
+            </div>
+            <div>
+                <NavbarFriends state={props.state}/>
+            </div>
 
-                    </div>
-                )
-            }
-            }
-        </StoreContext.Consumer>
+        </div>
     )
+
 }
 
 export default Navbar;

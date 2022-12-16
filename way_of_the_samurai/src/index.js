@@ -4,7 +4,8 @@ import store from "./redux/store-redux"
 import ReactDOM from "react-dom/client";
 import React from "react";
 import App from "./App";
-import {Provider} from "./redux/StoreContext";
+import {Provider} from "react-redux";
+
 
 export let rerenderTree = () => {
     let root = ReactDOM.createRoot(document.getElementById('root'));

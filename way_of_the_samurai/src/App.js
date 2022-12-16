@@ -8,6 +8,7 @@ import News from "./Content/News/News";
 import Music from "./Content/Music/Music";
 import Setting from "./Content/Setting/Setting";
 import DialogsContainer from "./Content/Dialogs/DialogsConteiner";
+import NavbarContainer from "./Content/Navbar/NavbarContainer";
 
 
 const App = () => {
@@ -15,7 +16,7 @@ const App = () => {
         <BrowserRouter>
             <div className={s.AppWrapper}>
                 <div className={s.Header}><Header/></div>
-                <div className={s.Navbar}><Navbar/></div>
+                <div className={s.Navbar}><NavbarContainer/></div>
                 <Routes className={s.Profile}>
                     <Route path='/profile' element={<Profile/>}/>
                     <Route path='/dialogs/*' element={<DialogsContainer/>}/>
