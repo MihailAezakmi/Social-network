@@ -1,6 +1,6 @@
 import React from "react";
 import MessageUser from "./MessageUser/MessageUser";
-import {sendMessageCreator, onMessageChangeCreator} from "../../../redux/DialogsReducer";
+import {sendMessageCreator, onMessageChangeCreator} from "../../../redux/dialogs-reducer";
 import Message from "./Message";
 import {connect} from "react-redux";
 
