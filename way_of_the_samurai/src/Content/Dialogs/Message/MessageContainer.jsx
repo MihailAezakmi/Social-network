@@ -7,8 +7,8 @@ import {connect} from "react-redux";
 let mapStateToProps = (state) => {
     return {
         onNewMessageText:state.dialogsPage.newMessageBody,
-        messageElements:state.dialogsPage.MessageUserData.map(messages => <MessageUser
-            message={messages.message} id={messages.id}/>)
+        messageElements:state.dialogsPage.messageUserData.map(messages => <MessageUser
+            message={messages.message} key={messages.id} id={messages.id}/>)
     }
 }
 let mapDispatchToProps = (dispatch) => {

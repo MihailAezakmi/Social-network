@@ -6,7 +6,7 @@ import {connect} from "react-redux";
 
 let mapStateToProps = (state) => {
     return {
-        dialogsElements: state.dialogsPage.DialogsUserData.map(name => <DialogsUser user={name.name} id={name.id}/>)
+        dialogsElements: state.dialogsPage.dialogsUserData.map(name => <DialogsUser user={name.name} id={name.id}/>)
     }
 }
 
