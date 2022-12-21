@@ -7,21 +7,15 @@ import App from "./App";
 import {Provider} from "react-redux";
 
 
-export let rerenderTree = () => {
-    let root = ReactDOM.createRoot(document.getElementById('root'));
+let root = ReactDOM.createRoot(document.getElementById('root'));
 
-    root.render(
-        <React.StrictMode>
-            <Provider store={store}>
-                <App />
-            </Provider>
-        </React.StrictMode>
-    );
-}
-rerenderTree();
-store.subscribe(() => {
-    rerenderTree()
-});
+root.render(
+    <React.StrictMode>
+        <Provider store={store}>
+            <App/>
+        </Provider>
+    </React.StrictMode>
+)
 
 
 reportWebVitals();

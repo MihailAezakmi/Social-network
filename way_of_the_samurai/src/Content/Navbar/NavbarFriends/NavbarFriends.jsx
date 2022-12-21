@@ -9,9 +9,6 @@ const NavbarFriends = (props) => {
             <div className={s.friends}>Friends</div>
             <div className={s.friend}>{friendElement}</div>
         </div>
-
-
-
     )
 }
 
