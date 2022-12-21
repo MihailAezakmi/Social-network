@@ -52,18 +52,18 @@
   &quot;keyToString&quot;: {
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;js.last.introduce.type&quot;: &quot;CONST&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/project/way_of_the_samurai/src/Content/Navbar&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/project/way_of_the_samurai/src/redux&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\project\way_of_the_samurai\src\redux" />
       <recent name="C:\project\way_of_the_samurai\src\Content\Navbar" />
       <recent name="C:\project\way_of_the_samurai\src\Content\Dialogs" />
       <recent name="C:\project\way_of_the_samurai\src\Content\Dialogs\Message" />
       <recent name="C:\project\way_of_the_samurai\src\Content\Profile\MyPosts\Post" />
-      <recent name="C:\project\way_of_the_samurai\src\redux" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\project\way_of_the_samurai\src\Content\Profile\MyPosts" />
@@ -117,7 +117,7 @@
       <workItem from="1670621903087" duration="1257000" />
       <workItem from="1671124757336" duration="6943000" />
       <workItem from="1671212816728" duration="2344000" />
-      <workItem from="1671642030015" duration="3241000" />
+      <workItem from="1671642030015" duration="12859000" />
     </task>
     <servers />
   </component>

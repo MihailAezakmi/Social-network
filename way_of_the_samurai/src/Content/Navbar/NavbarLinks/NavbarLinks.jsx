@@ -14,8 +14,8 @@ const NavbarLinks = () => {
                 isActive ? s.active : undefined}>News</NavLink></div>
             <div className={s.Navbar_item}><NavLink to="/music" className={({isActive}) =>
                 isActive ? s.active : undefined}>Music</NavLink></div>
-            <div className={s.Navbar_item}><NavLink to="/setting" className={({isActive}) =>
-                isActive ? s.active : undefined}>Settings</NavLink></div>
+            <div className={s.Navbar_item}><NavLink to="/users" className={({isActive}) =>
+                isActive ? s.active : undefined}>Find users</NavLink></div>
         </div>
     )
 }

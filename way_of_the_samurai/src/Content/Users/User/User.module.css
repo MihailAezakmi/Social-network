@@ -1,0 +1,73 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+}
+
+
+
+.AvaButton {
+    display: grid;
+    grid-template-rows: 100px 30px;
+}
+
+.Ava img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    margin: 12px 0 0 12px;
+}
+
+
+button {
+    width: 80px;
+    height: 20px;
+    margin: 0 0 0 10px;
+}
+
+.buttonFollow {
+    background: lawngreen;
+}
+
+.buttonUnfollow {
+    background: red;
+}
+
+
+
+
+.data {
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 15px;
+    width: 500px;
+    height: 90px;
+    margin: 20px 0 0 0;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+
+.fullName {
+    font-size: 25px;
+    margin: 10px 0 0 20px;
+}
+
+.status {
+    margin: 25px 0 0 20px;
+    font-size: 12px;
+    color: grey;
+}
+
+.locCity {
+    font-size: 20px;
+    text-align: right;
+    margin: 0 10px 0 0;
+}
+
+.locCountry {
+    font-size: 20px;
+    text-align: right;
+    margin: 0 10px 0 0;
+}
+
+
