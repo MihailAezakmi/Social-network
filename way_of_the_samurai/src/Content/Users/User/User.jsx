@@ -4,7 +4,7 @@ import PhotoUser from "../../photo/photoUser.jpg"
 
 const User = (props) => {
     let state = props.u
-
+debugger
     return (
         <div className={s.wrapper}>
             <div className={s.AvaButton}>

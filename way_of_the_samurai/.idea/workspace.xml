@@ -48,29 +48,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;js.last.introduce.type&quot;: &quot;CONST&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/project/way_of_the_samurai/src/redux&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "js.last.introduce.type": "CONST",
+    "last_opened_file_path": "C:/project/way_of_the_samurai/src/Content/Users/User",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\project\way_of_the_samurai\src\Content\Users\User" />
       <recent name="C:\project\way_of_the_samurai\src\redux" />
       <recent name="C:\project\way_of_the_samurai\src\Content\Navbar" />
       <recent name="C:\project\way_of_the_samurai\src\Content\Dialogs" />
       <recent name="C:\project\way_of_the_samurai\src\Content\Dialogs\Message" />
-      <recent name="C:\project\way_of_the_samurai\src\Content\Profile\MyPosts\Post" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\project\way_of_the_samurai\src\Content\Users" />
       <recent name="C:\project\way_of_the_samurai\src\Content" />
       <recent name="C:\project\way_of_the_samurai\src\photo" />
       <recent name="C:\project\way_of_the_samurai\src\Content\Profile\MyPosts" />
       <recent name="C:\project\way_of_the_samurai\src\Content\Dialogs" />
-      <recent name="C:\project\way_of_the_samurai\src\Content\Dialogs\DialogsUserMessage" />
     </key>
   </component>
   <component name="RunManager">
@@ -120,7 +120,7 @@
       <workItem from="1671212816728" duration="2344000" />
       <workItem from="1671642030015" duration="12859000" />
       <workItem from="1671657414359" duration="200000" />
-      <workItem from="1671818207013" duration="3506000" />
+      <workItem from="1671818207013" duration="6438000" />
     </task>
     <servers />
   </component>
